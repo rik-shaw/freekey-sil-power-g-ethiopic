@@ -28,14 +28,16 @@ begin
 end;
 
 [Setup]
-OutputBaseFilename=FreeKey SIL Power-G Ethiopic Keyboard
-AppName=SIL Power-G Ethiopic
-AppVerName=SIL Power-G Ethiopic Version 1.1
+OutputBaseFilename=FreeKey SIL Power-G Ethiopic Keyboard v-1-1
+AppName=SIL Power-G Ethiopic Keyboard
+AppVersion=1.1
+AppVerName=SIL Power-G Ethiopic Keyboard Version 1.1
 DefaultDirName={pf}\FreeKey
 DefaultGroupName=FreeKey
 UninstallDisplayName=FreeKey SIL Power-G Ethiopic Keyboard
 AppPublisher=SIL Ethiopia
 AppPublisherURL=http://www.silethiopia.org/
+AppCopyright=(c) SIL Ethiopia
 DirExistsWarning=No
 
 [Files]
