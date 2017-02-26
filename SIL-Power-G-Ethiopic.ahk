@@ -1,7 +1,9 @@
 ﻿;========================================================
 ;      SIL Power-G
 ;========================================================
-;version 1.1 2016-01-15:
+;version 1.2 2017-02-26: changing diacritic trigger
+;    to match keyman ("." preceding number)
+;version 1.1 2017-01-15:
 ;   -update diphthong keying, add [ option for infrequent
 ;      characters
 ;version 1.0 2016-12-19: original release
@@ -140,7 +142,7 @@ GroupPunctD =
 (
   U+1361 $. U+1367| | U+1361 $: U+1368| |
   U+1361 $- U+1366| | U+1365 $, U+1363| |
-      $. $. U+2022| |     U+1362 $. $.| | ; CAUTION, the order must not be changed!!
+  U+1362 $. U+002E| | U+002E $. U+2022| | U+2022 $. U+1362| |
   U+1362 $/ U+1360| | U+1218 $) U+e496| |
       $> $> U+00bb| |     $< $< U+00ab| |
       $> $" U+00bb| |     $< $" U+00ab| |
@@ -151,12 +153,16 @@ GroupPunctD =
 ; Value: LastOutput(LO) followed by InputKey(K) results to newValue(nV)
 GroupDiacritic =
 (
-  U+1361 $^ U+135e| |   $' $^ U+135f| |   $" $^ U+135d| |
-      $1 $^ U+030f| |   $2 $^ U+0300| |   $3 $^ U+0304| |
-      $4 $^ U+0301| |   $5 $^ U+030b| |   $6 $^ U+0302| |
-      $7 $^ U+030c| |   $8 $^ U+0307| |   $9 $^ U+0308| |
-      $0 $^ U+0303| |
+      U+1362 $: U+135e| | U+1362 $' U+135f| | U+1362 $" U+135d| |
+      U+1362 $1 U+030f| | U+1362 $2 U+0300| | U+1362 $3 U+0304| |
+      U+1362 $4 U+0301| | U+1362 $5 U+030b| | U+1362 $6 U+0302| |
+      U+1362 $7 U+030c| | U+1362 $8 U+0307| | U+1362 $9 U+0308| |
+      U+1362 $0 U+0303| |
 )
+
+; Used with InGroup(group)
+; It is just checked if a value is within a specified group
+GroupDiacriticTrigger = ( $: $' $" $1 $2 $3 $4 $5 $6 $7 $8 $9 $0 )
 
 }
 
@@ -354,19 +360,7 @@ KeyDown(which)
     MatrixKey := "&&&"  ; Assign nonsense value to matrix key to avoid unwanted modifications
   }
 
-  else if (which == "$*")
-  {
-    ReplaceLastKey(GroupStar)
-    LastWhich := which
-  }
-
-  else if (which == "$0")
-  {
-    ReplaceLastKey(GroupNumber)
-    LastWhich := which
-  }
-
-  else if (which == "$^")
+ else if (LastOutput == "U+1362" && InGroup(GroupDiacriticTrigger, which))
   {
     ReplaceDoubleKey(GroupDiacritic)
     LastWhich := which
@@ -379,7 +373,19 @@ KeyDown(which)
       ExchangeKey(GroupPunctEx)
     }
     MatrixKey := "&&&"  ; Assign nonsense value to matrix key to avoid unwanted modifications
-    LastWhich := "&&&"
+    LastWhich := which
+  }
+
+  else if (which == "$*")
+  {
+    ReplaceLastKey(GroupStar)
+    LastWhich := which
+  }
+
+  else if (which == "$0")
+  {
+    ReplaceLastKey(GroupNumber)
+    LastWhich := which
   }
 
   else
