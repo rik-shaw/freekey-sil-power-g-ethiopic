@@ -74,6 +74,11 @@ GroupBasicMatrix =
     $P   ,U+1330 ,U+1331 ,U+1332 ,U+1333 ,U+1334 ,U+1335 ,U+1336 ,U+2d91 ,U+1337 ,U+1337 ,U+1337 ,U+1337 ,U+1337 ,U+1337 |
     $f   ,U+1348 ,U+1349 ,U+134a ,U+134b ,U+134c ,U+134d ,U+134e ,U+1348 ,U+134f ,U+138b ,U+1389 ,U+138a ,U+1388 ,U+135a |
     $p   ,U+1350 ,U+1351 ,U+1352 ,U+1353 ,U+1354 ,U+1355 ,U+1356 ,U+2d92 ,U+1357 ,U+138f ,U+138d ,U+138e ,U+138c ,U+1357 |
+    $J   ,U+1220 ,U+1221 ,U+1222 ,U+1223 ,U+1224 ,U+1225 ,U+1226 ,U+1220 ,U+1227 ,U+1227 ,U+1227 ,U+1227 ,U+1227 ,U+1227 |
+    $L   ,U+1280 ,U+1281 ,U+1282 ,U+1283 ,U+1284 ,U+1285 ,U+1286 ,U+1287 ,U+128b ,U+128d ,U+128a ,U+128c ,U+1288 ,U+128b |
+    $K   ,U+12b8 ,U+12b9 ,U+12ba ,U+12bb ,U+12bc ,U+12bd ,U+12be ,U+12b8 ,U+12c3 ,U+12c5 ,U+12c2 ,U+12c4 ,U+12c0 ,U+12c3 |
+    $F   ,U+1338 ,U+1339 ,U+133a ,U+133b ,U+133c ,U+133d ,U+133e ,U+1338 ,U+133f ,U+133f ,U+133f ,U+133f ,U+133f ,U+133f |
+    $V   ,U+1340 ,U+1341 ,U+1342 ,U+1343 ,U+1344 ,U+1345 ,U+1346 ,U+1347 ,U+1340 ,U+1340 ,U+1340 ,U+1340 ,U+1340 ,U+1340 |
     $S$# ,U+2da0 ,U+2da1 ,U+2da2 ,U+2da3 ,U+2da4 ,U+2da5 ,U+2da6 ,U+2da0 ,U+2da0 ,U+2da0 ,U+2da0 ,U+2da0 ,U+2da0 ,U+2da0 |
     $c$# ,U+2da8 ,U+2da9 ,U+2daa ,U+2dab ,U+2dac ,U+2dad ,U+2dae ,U+2da8 ,U+2da8 ,U+2da8 ,U+2da8 ,U+2da8 ,U+2da8 ,U+2da8 |
     $Z$# ,U+2db0 ,U+2db1 ,U+2db2 ,U+2db3 ,U+2db4 ,U+2db5 ,U+2db6 ,U+2db0 ,U+2db0 ,U+2db0 ,U+2db0 ,U+2db0 ,U+2db0 ,U+2db0 |
@@ -81,17 +86,13 @@ GroupBasicMatrix =
     $q$# ,U+2dc0 ,U+2dc1 ,U+2dc2 ,U+2dc3 ,U+2dc4 ,U+2dc5 ,U+2dc6 ,U+2dc0 ,U+2dc0 ,U+2dc0 ,U+2dc0 ,U+2dc0 ,U+2dc0 ,U+2dc0 |
     $k$# ,U+2dc8 ,U+2dc9 ,U+2dca ,U+2dcb ,U+2dcc ,U+2dcd ,U+2dce ,U+2dc8 ,U+2dc8 ,U+2dc8 ,U+2dc8 ,U+2dc8 ,U+2dc8 ,U+2dc8 |
     $K$# ,U+2dd0 ,U+2dd1 ,U+2dd2 ,U+2dd3 ,U+2dd4 ,U+2dd5 ,U+2dd6 ,U+2dd0 ,U+2dd0 ,U+2dd0 ,U+2dd0 ,U+2dd0 ,U+2dd0 ,U+2dd0 |
+    $H$# ,U+2dd0 ,U+2dd1 ,U+2dd2 ,U+2dd3 ,U+2dd4 ,U+2dd5 ,U+2dd6 ,U+2dd0 ,U+2dd0 ,U+2dd0 ,U+2dd0 ,U+2dd0 ,U+2dd0 ,U+2dd0 |
     $g$# ,U+2dd8 ,U+2dd9 ,U+2dda ,U+2ddb ,U+2ddc ,U+2ddd ,U+2dde ,U+2dd8 ,U+2dd8 ,U+2dd8 ,U+2dd8 ,U+2dd8 ,U+2dd8 ,U+2dd8 |
     $C$= ,U+ab20 ,U+ab21 ,U+ab22 ,U+ab23 ,U+ab24 ,U+ab25 ,U+ab26 ,U+ab20 ,U+ab20 ,U+ab20 ,U+ab20 ,U+ab20 ,U+ab20 ,U+ab20 |
     $P$= ,U+ab28 ,U+ab29 ,U+ab2a ,U+ab2b ,U+ab2c ,U+ab2d ,U+ab2e ,U+ab28 ,U+ab28 ,U+ab28 ,U+ab28 ,U+ab28 ,U+ab28 ,U+ab28 |
     $s$= ,U+ab05 ,U+ab01 ,U+ab02 ,U+ab03 ,U+ab04 ,U+ab05 ,U+ab06 ,U+ab05 ,U+ab05 ,U+ab05 ,U+ab05 ,U+ab05 ,U+ab05 ,U+ab05 |
     $z$= ,U+ab15 ,U+ab11 ,U+ab12 ,U+ab13 ,U+ab14 ,U+ab15 ,U+ab16 ,U+ab15 ,U+ab15 ,U+ab15 ,U+ab15 ,U+ab15 ,U+ab15 ,U+ab15 |
     $D$= ,U+ab0d ,U+ab09 ,U+ab0a ,U+ab0b ,U+ab0c ,U+ab0d ,U+ab0e ,U+ab0d ,U+ab0d ,U+ab0d ,U+ab0d ,U+ab0d ,U+ab0d ,U+ab0d |
-    $J   ,U+1220 ,U+1221 ,U+1222 ,U+1223 ,U+1224 ,U+1225 ,U+1226 ,U+1220 ,U+1227 ,U+1227 ,U+1227 ,U+1227 ,U+1227 ,U+1227 |
-    $L   ,U+1280 ,U+1281 ,U+1282 ,U+1283 ,U+1284 ,U+1285 ,U+1286 ,U+1287 ,U+128b ,U+128d ,U+128a ,U+128c ,U+1288 ,U+128b |
-    $K   ,U+12b8 ,U+12b9 ,U+12ba ,U+12bb ,U+12bc ,U+12bd ,U+12be ,U+12b8 ,U+12c3 ,U+12c5 ,U+12c2 ,U+12c4 ,U+12c0 ,U+12c3 |
-    $F   ,U+1338 ,U+1339 ,U+133a ,U+133b ,U+133c ,U+133d ,U+133e ,U+1338 ,U+133f ,U+133f ,U+133f ,U+133f ,U+133f ,U+133f |
-    $V   ,U+1340 ,U+1341 ,U+1342 ,U+1343 ,U+1344 ,U+1345 ,U+1346 ,U+1347 ,U+1340 ,U+1340 ,U+1340 ,U+1340 ,U+1340 ,U+1340 |
     $s$[ ,U+1220 ,U+1221 ,U+1222 ,U+1223 ,U+1224 ,U+1225 ,U+1226 ,U+1220 ,U+1227 ,U+1227 ,U+1227 ,U+1227 ,U+1227 ,U+1227 |
     $h$[ ,U+1280 ,U+1281 ,U+1282 ,U+1283 ,U+1284 ,U+1285 ,U+1286 ,U+1287 ,U+128b ,U+128d ,U+128a ,U+128c ,U+1288 ,U+128b |
     $H$[ ,U+12b8 ,U+12b9 ,U+12ba ,U+12bb ,U+12bc ,U+12bd ,U+12be ,U+12b8 ,U+12c3 ,U+12c5 ,U+12c2 ,U+12c4 ,U+12c0 ,U+12c3 |
@@ -116,7 +117,7 @@ GroupNumber =
 
 ; Used with InGroup(group)
 ; It is just checked if a value is within a specified group
-GroupHash = ( $S $c $Z $C $q $k $H $g )
+GroupHash = ( $S $c $Z $C $q $k $H $K $g )
 
 ; Used with InGroup(group)
 ; It is just checked if a value is within a specified group
@@ -325,7 +326,7 @@ KeyDown(which)
       MatrixOut(GroupBasicMatrix, which, which, 1, 0)
     }
     LastWhich := which
-    MatrixKey := "&&&"  ; Assign nonsense value to matrix key to avoid unwanted modifications
+    ;MatrixKey := "&&&"  ; Assign nonsense value to matrix key to avoid unwanted modifications
   }
 
   else if (which == "$=")
@@ -340,7 +341,7 @@ KeyDown(which)
       MatrixOut(GroupBasicMatrix, which, which, 1, 0)
     }
     LastWhich := which
-    MatrixKey := "&&&"  ; Assign nonsense value to matrix key to avoid unwanted modifications
+    ;MatrixKey := "&&&"  ; Assign nonsense value to matrix key to avoid unwanted modifications
   }
 
 ; 2016-01-11 rik: 2 options to trigger "alt keys" (Power Ge'ez used CAPS LOCK)
@@ -358,7 +359,7 @@ KeyDown(which)
       MatrixOut(GroupBasicMatrix, which, which, 1, 0)
     }
     LastWhich := which
-    MatrixKey := "&&&"  ; Assign nonsense value to matrix key to avoid unwanted modifications
+    ;MatrixKey := "&&&"  ; Assign nonsense value to matrix key to avoid unwanted modifications
   }
 
  else if (LastOutput == "U+1362" && InGroup(GroupDiacriticTrigger, which))
