@@ -28,10 +28,10 @@ begin
 end;
 
 [Setup]
-OutputBaseFilename=FreeKey SIL Power-G Ethiopic Keyboard v-1-2
+OutputBaseFilename=FreeKey SIL Power-G Ethiopic Keyboard v-1-2-0-1
 AppName=SIL Power-G Ethiopic Keyboard
-AppVersion=1.2
-AppVerName=SIL Power-G Ethiopic Keyboard Version 1.2
+AppVersion=1.2.0.1
+AppVerName=SIL Power-G Ethiopic Keyboard Version 1.2.0.1
 DefaultDirName={pf}\FreeKey
 DefaultGroupName=FreeKey
 UninstallDisplayName=FreeKey SIL Power-G Ethiopic Keyboard
