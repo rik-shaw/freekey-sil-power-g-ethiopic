@@ -37,7 +37,7 @@ MatrixMarker := ","
 ; Every keyvalue must be unique within the matrix and must not be repeated
 ; fill in "dead spots" in matrix with default value
 GroupBasicMatrix = 
-(   ;    -       u       i       a       y       e       o       O       W       Wu      Wi      We      Wo      WI     |
+(   ;    -        u       i       a       y       e       o       O       W       Wu      Wi      We      Wo      WI     |
     $]   ,U+005d ,U+005d ,U+005d ,U+005d ,U+005d ,U+005d ,U+005d ,U+005d ,U+005d ,U+005d ,U+005d ,U+005d ,U+005d ,U+005d |
     $[   ,U+005b ,U+005b ,U+005b ,U+005b ,U+005b ,U+005b ,U+005b ,U+005b ,U+005b ,U+005b ,U+005b ,U+005b ,U+005b ,U+005b |
     $#   ,U+0023 ,U+0023 ,U+0023 ,U+0023 ,U+0023 ,U+0023 ,U+0023 ,U+0023 ,U+0023 ,U+0023 ,U+0023 ,U+0023 ,U+0023 ,U+0023 |
